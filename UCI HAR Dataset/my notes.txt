@@ -1,0 +1,4 @@
+1. Don't need stuff in inertial folder. It has no  mean or standard deviation data.
+
+2. Column names in features.txt Not clear what mean and std cols we want.
+   More details in features_info.txt.
