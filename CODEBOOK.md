@@ -34,54 +34,34 @@ jerk has units of g/sec.
 |          |                                      |                                                                                                                    |                             | 
 |     4    | GravityAccelerationMagnitudeMean     | Mean of the gravity acceleration magnitude from the smartphone accelerometer.                                      | g                           | 
 |          |                                      |                                                                                                                    |                             | 
-|     5    | BodyAccelerationJerkMagnitudeMean    | Mean of the body acceleration jerk                                                                                 | g/Second                    | 
-|          |                                      | magnitude from the smartphone accelerometer.                                                                       |                             | 
+|     5    | BodyAccelerationJerkMagnitudeMean    | Mean of the body acceleration jerk magnitude from the smartphone accelerometer.                                    | g/Second                    | 
 |          |                                      |                                                                                                                    |                             | 
-|     6    | BodyGyroscopeMagnitudeMean           | Mean of the body angular velocity magnitude                                                                        | Radians/Second              | 
-|          |                                      | from the smartphone gyroscope.                                                                                     |                             | 
+|     6    | BodyGyroscopeMagnitudeMean           | Mean of the body angular velocity magnitude from the smartphone gyroscope.                                         | Radians/Second              | 
 |          |                                      |                                                                                                                    |                             | 
-|     7    | BodyGyroscopeJerkMagnitudeMean       | Mean of the body angular velocity jerk                                                                             | Radians/Second^2            | 
-|          |                                      | magnitude from the smartphone gyroscope.                                                                           |                             | 
+|     7    | BodyGyroscopeJerkMagnitudeMean       | Mean of the body angular velocity jerk magnitude from the smartphone gyroscope.                                    | Radians/Second^2            | 
 |          |                                      |                                                                                                                    |                             | 
-|     8    | BodyAccelerationMagnitudeFFTMean     | Mean of the body acceleration magnitude Fourier                                                                    | g-Second                    | 
-|          |                                      | transform from the smartphone accelerometer.                                                                       |                             | 
+|     8    | BodyAccelerationMagnitudeFFTMean     | Mean of the body acceleration magnitude Fourier transform from the smartphone accelerometer.                       | g-Second                    | 
 |          |                                      |                                                                                                                    |                             | 
-|     9    | BodyAccelerationJerkMagnitudeFFTMean | Mean of the body acceleration jerk magnitude                                                                       | g                           | 
-|          |                                      | Fourier transform from the smartphone                                                                              |                             | 
-|          |                                      | accelerometer.                                                                                                     |                             | 
+|     9    | BodyAccelerationJerkMagnitudeFFTMean | Mean of the body acceleration jerk magnitude Fourier transform from the smartphone accelerometer.                  | g                           | 
 |          |                                      |                                                                                                                    |                             | 
-|    10    | BodyGyroscopeMagnitudeFFTMean        | Mean of the body angular velocity magnitude                                                                        | Radians                     | 
-|          |                                      | Fourier transform from the smartphone gyroscope.                                                                   |                             | 
+|    10    | BodyGyroscopeMagnitudeFFTMean        | Mean of the body angular velocity magnitude Fourier transform from the smartphone gyroscope.                       | Radians                     | 
 |          |                                      |                                                                                                                    |                             | 
-|    11    | BodyGyroscopeJerkMagnitudeFFTMean    | Mean of the body angular velocity jerk                                                                             | Radians/Second              |
-|          |                                      | magnitude Fourier transform from the smartphone                                                                    |                             | 
-|          |                                      | gyroscope.                                                                                                         |                             | 
+|    11    | BodyGyroscopeJerkMagnitudeFFTMean    | Mean of the body angular velocity jerk magnitude Fourier transform from the smartphone gyroscope.                  | Radians/Second              |
 |          |                                      |                                                                                                                    |                             | 
-|    12    | BodyAccelerationMagnitudeStd         | Standard deviation of the body acceleration                                                                        | g                           | 
-|          |                                      | magnitude from the smartphone accelerometer.                                                                       |                             | 
+|    12    | BodyAccelerationMagnitudeStd         | Standard deviation of the body acceleration magnitude from the smartphone accelerometer.                           | g                           | 
 |          |                                      |                                                                                                                    |                             | 
-|    13    | GravityAccelerationMagnitudeStd      | Standard deviation of the gravity acceleration                                                                     | g                           | 
-|          |                                      | magnitude from the smartphone accelerometer.                                                                       |                             | 
+|    13    | GravityAccelerationMagnitudeStd      | Standard deviation of the gravity acceleration magnitude from the smartphone accelerometer.                        | g                           | 
 |          |                                      |                                                                                                                    |                             | 
-|    14    | BodyAccelerationJerkMagnitudeStd     | Standard deviation of the body acceleration jerk                                                                   | g/Second                    | 
-|          |                                      | magnitude from the smartphone accelerometer.                                                                       |                             | 
+|    14    | BodyAccelerationJerkMagnitudeStd     | Standard deviation of the body acceleration jerk magnitude from the smartphone accelerometer.                      | g/Second                    | 
 |          |                                      |                                                                                                                    |                             | 
-|    15    | BodyGyroscopeMagnitudeStd            | Standard deviation of the body angular velocity                                                                    | Radians/Second              | 
-|          |                                      | magnitude from the smartphone gyroscope.                                                                           |                             | 
+|    15    | BodyGyroscopeMagnitudeStd            | Standard deviation of the body angular velocity magnitude from the smartphone gyroscope.                           | Radians/Second              | 
 |          |                                      |                                                                                                                    |                             | 
-|    16    | BodyGyroscopeJerkMagnitudeStd        | Standard deviation of the body angular velocity                                                                    | Radians/Second^2            | 
-|          |                                      | jerk magnitude from the smartphone gyroscope.                                                                      |                             | 
+|    16    | BodyGyroscopeJerkMagnitudeStd        | Standard deviation of the body angular velocity jerk magnitude from the smartphone gyroscope.                      | Radians/Second^2            | 
 |          |                                      |                                                                                                                    |                             | 
-|    17    | BodyAccelerationMagnitudeFFTStd      | Standard deviation of the body acceleration                                                                        | g-Second                    | 
-|          |                                      | magnitude Fourier transform from the smartphone                                                                    |                             | 
-|          |                                      | accelerometer.                                                                                                     |                             | 
+|    17    | BodyAccelerationMagnitudeFFTStd      | Standard deviation of the body acceleration magnitude Fourier transform from the smartphone accelerometer.         | g-Second                    | 
 |          |                                      |                                                                                                                    |                             | 
-|    18    | BodyAccelerationJerkMagnitudeFFTStd  | Standard deviation of the body acceleration jerk                                                                   | g                           | 
-|          |                                      | magnitude Fourier transform from the smartphone                                                                    |                             | 
-|          |                                      | accelerometer.                                                                                                     |                             | 
+|    18    | BodyAccelerationJerkMagnitudeFFTStd  | Standard deviation of the body acceleration jerk magnitude Fourier transform from the smartphone accelerometer.    | g                           | 
 |          |                                      |                                                                                                                    |                             | 
-|    19    | BodyGyroscopeMagnitudeFFTStd         | Standard deviation of the body angular velocity                                                                    | Radians                     | 
-|          |                                      | magnitude Fourier transform from the smartphone                                                                    |                             | 
-|          |                                      | gyroscope.                                                                                                         |                             | 
+|    19    | BodyGyroscopeMagnitudeFFTStd         | Standard deviation of the body angular velocity magnitude Fourier transform from the smartphone gyroscope.         | Radians                     | 
 |          |                                      |                                                                                                                    |                             | 
 |    20    | BodyGyroscopeJerkMagnitudeFFTStd     | Standard deviation of the body angular velocity jerk magnitude Fourier transform from the smartphone gyroscope.    | Radians/Second              | 
