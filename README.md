@@ -9,12 +9,12 @@ This is the repository for my work on the class project.
 
 Raw Data
 --------
-   The raw data used in the project is in the subdirectory
-"UCI HAR Dataset". The text files in that directory
+   The raw data used in the project is downloaded into the
+"UCI HAR Dataset" directory by the run_analysis script
+provided it doesn't already exist. The text files in that directory
 explain the raw data structure. Start with README.txt.
-The file downloadData.R contains a script for downloading
-the raw data from its original source.
-
+Subsequent execution of the run_analysis script will use the
+existing data.
 
 Analysis Script and Tidy Dataset
 --------------------------------

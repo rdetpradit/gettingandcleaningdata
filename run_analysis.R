@@ -3,6 +3,19 @@
 # Set the working directory to the directory containing this file.
 # i.e.   setwd("path to directory containing this file")
 
+# Donwload the raw data. This is only done if the raw data directory
+# doesn't exit.
+
+if (!dir.exists("UCI HAR Dataset")) {
+    # download and unzip the raw files
+    # results in "UCI HAR Dataset" directory
+    temp <- tempfile()
+    dpath <- "https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI HAR Dataset.zip";
+    download.file(dpath,temp)
+    unzip(temp)
+    unlink(temp)
+}
+
 path <- paste(getwd(), "/UCI HAR Dataset", sep='')
 
 # step 1
