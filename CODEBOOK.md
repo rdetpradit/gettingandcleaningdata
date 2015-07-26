@@ -6,8 +6,7 @@ Code Book
    This file explains all the variables included
 in the tidy.txt file including their units.
 
-| Column   |  Column                         | Description                               | Units     |
-| Number   |  Name                           |                                           |           |
+| Number   |  Name                           | Description                               | Units     |
 |----------|:--------------------------------|:------------------------------------------|:----------|
 |   1      | Subject                         | Subject id number. (1-30)                 | Integer   | 
 |          |                                 |                                           |           | 
