@@ -1,6 +1,7 @@
 
 # DO THIS BEFORE RUNNING THE SCRIPT!
 # Set the working directory to the directory containing this file.
+# i.e.   setwd("path to directory containing this file")
 
 path <- paste(getwd(), "/UCI HAR Dataset", sep='')
 
@@ -123,6 +124,7 @@ harAggregate <- aggregate(harMeanStd[, 3:20], by = list(harMeanStd$Activity,
 names(harAggregate)[1] <- names(harMeanStd)[2]
 names(harAggregate)[2] <- names(harMeanStd)[1]
 
-# Write the data to a text file.
-resultPath <- paste(getwd(), "/result.txt", sep='')
+
+# Finally, write the data to a text file.
+resultPath <- paste(getwd(), "/tidy.txt", sep='')
 write.table(harAggregate, file=resultPath, sep = ",", row.name = FALSE)
